@@ -1,0 +1,34 @@
+body {
+    background-color: wheat;
+    -moz-animation: fadein 1.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sous-titre{
+    color:brown;
+    text-align: left;
+    margin: 75px;
+}
+
+.presentation {
+    
+    width: 500px;
+    border: 2px solid brown;
+    background-color: beige;
+    text-align: justify;
+    padding: 12px;
+    margin: 75px;
+}
+
+img {
+    position: absolute; top: 50px; left: 750px;
+}
+
+@-moz-keyframes fadein {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
